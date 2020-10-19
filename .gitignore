@@ -11,6 +11,10 @@
 # production
 /build
 
+
+#egor
+.idea
+
 # misc
 .DS_Store
 .env.local
