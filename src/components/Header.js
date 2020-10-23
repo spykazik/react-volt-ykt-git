@@ -15,37 +15,36 @@ import styled from 'styled-components'
 import Calc from '../pages/Calc'
 
 
-export default class Header extends Component {
-    render() {
-        return (
-            <>
-                <Navbar collapseOnSelect expand="sm" bg="primary" variant="dark" fixed="top" >
-                    <Container >
-                        <Navbar.Brand>
-                            VOLT YAKUTIA
-                        </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="responisive-navbar-nav" />
-                        <Navbar.Collapse id="responisive-navbar-nav" >
-                            <Nav className="ma-auto">
-                                <Nav.Link href="/" > Главная </Nav.Link>
-                                <Nav.Link href="/about" > О нас </Nav.Link>
-                                <Nav.Link href="/contacts" > Контакты </Nav.Link>
-                                <Nav.Link href="/blog" > Блог </Nav.Link>
-                                <Nav.Link href="/calc" > Посчитать цену </Nav.Link>
-                            </Nav>
-                        </Navbar.Collapse>
-                    </Container>
-                </Navbar>
-                <Router>
-                    <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/about" component={About} />
-                        <Route exact path="/contacts" component={Contacts} />
-                        <Route exact path="/blog" component={Blog} />
-                        <Route exact path="/calc" component={Calc} />
-                    </Switch>
-                </Router>
-            </>
-        )
-    }
+export default function Header () {
+    return (
+        <>
+            <Navbar collapseOnSelect expand="sm" bg="primary" variant="dark" fixed="top" >
+                <Container >
+                    <Navbar.Brand>
+                        VOLT YAKUTIA
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responisive-navbar-nav" />
+                    <Navbar.Collapse id="responisive-navbar-nav" >
+                        <Nav className="ma-auto">
+                            <Nav.Link href="/" > Главная </Nav.Link>
+                            <Nav.Link href="/about" > О нас </Nav.Link>
+                            <Nav.Link href="/contacts" > Контакты </Nav.Link>
+                            <Nav.Link href="/blog" > Блог </Nav.Link>
+                            <Nav.Link href="/calc" > Посчитать цену </Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+            <Router>
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/contacts" component={Contacts} />
+                    <Route exact path="/blog" component={Blog} />
+                    <Route exact path="/calc" component={Calc} />
+                </Switch>
+            </Router>
+         </>
+    )
 }
+
