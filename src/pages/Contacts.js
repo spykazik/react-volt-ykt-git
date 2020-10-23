@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 
-export default class About extends Component {
-    render() {
-        return (
+export default function Contacts () {
+    return (
             <div style={{marginTop: 180}}>
                 Contacts MOHORKI
             </div>
-        )
-    }
+    )
 }
