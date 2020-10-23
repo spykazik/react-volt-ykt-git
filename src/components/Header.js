@@ -13,6 +13,8 @@ import Contacts from '../pages/Contacts'
 import Home from '../pages/Home'
 import styled from 'styled-components'
 import Calc from '../pages/Calc'
+import Calculator from "../pages/Calculator";
+import Editor from "../pages/Editor";
 
 
 export default function Header () {
@@ -42,6 +44,8 @@ export default function Header () {
                     <Route exact path="/contacts" component={Contacts} />
                     <Route exact path="/blog" component={Blog} />
                     <Route exact path="/calc" component={Calc} />
+                    <Route exact path="/calc/Calculator" component={Calculator} />
+                    <Route exact path="/calc/Editor" component={Editor} />
                 </Switch>
             </Router>
          </>

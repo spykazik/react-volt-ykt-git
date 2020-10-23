@@ -1,86 +1,152 @@
 @media screen and (max-width: 768px) {
-  .btn {
-    size: sm;
-  }
+    .btn {
+        size: sm;
+    }
 }
-@media screen and (min-width: 315x) {
-  h1.Vy {
-    font-size: 60px;
-  }
+
+@media screen and (min-width: 315px) {
+    h1.Vy {
+        font-size: 60px;
+    }
+
+    h1.cz {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 768px) {
-  h1.Vy {
-    font-size: 80px;
-  }
-}
-@media screen and (min-width: 992px) {
-  h1.Vy {
-    font-size: 100px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  h1.Za {
-    font-size: 120px;
-  }
+    h1.Vy {
+        font-size: 80px;
+    }
+
+    h1.cz {
+        font-size: 40px;
+    }
 }
 
-@media screen and (max-width: 576px) {
-  h4.Za {
-    font-size: 15px;
-  }
+@media screen and (min-width: 992px) {
+    h1.Vy {
+        font-size: 100px;
+    }
+
+    h1.cz {
+        font-size: 60px;
+    }
 }
+
+@media screen and (min-width: 1200px) {
+    h1.Za {
+        font-size: 120px;
+    }
+
+    h1.cz {
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    h4.Za {
+        font-size: 15px;
+    }
+
+    h4.calc-text {
+        font-size: 15px;
+    }
+
+    .Calculator {
+        position: static;
+    }
+
+    .Editor {
+        position: static;
+    }
+
+}
+
 @media screen and (min-width: 768px) {
-  h4.Za {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 992px) {
-  h4.Za {
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  h4.Vy {
-    font-size: 25px;
-  }
+    h4.Za {
+        font-size: 18px;
+    }
+
+    h4.calc-text {
+        font-size: 18px;
+    }
 }
 
+@media screen and (min-width: 992px) {
+    h4.Za {
+        font-size: 20px;
+    }
+
+    h4.calc-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h4.Vy {
+        font-size: 25px;
+    }
+
+    h4.calc-text {
+        font-size: 25px;
+    }
+}
 
 
 .background {
-  position: absolute;
-  background: url('../img/first.png');
-  background-color: #000;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-  filter: blur(3px);
-  margin: 0 auto;
-  
-  
-}
-.textarea {
-  position: absolute;
-  color: #fff;
-  margin-left: 10%;
-  margin-top: 38vh;
-  text-align: left;
-  visibility: inherit;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(1px)
-}
-.Vy {
-  
-  font-weight: bold;
-}
-.Za {
-  
-  font-weight: 400px;
-  padding-top: 43px;
-  padding-bottom: 43px;
-  padding-right: 28%;
+    position: absolute;
+    background: url('../img/first.png');
+    background-color: #000;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    filter: blur(3px);
+    margin: 0 auto;
 
+
+}
+
+.textarea {
+    position: absolute;
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 38vh;
+    text-align: left;
+    visibility: inherit;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px)
+}
+
+.Vy {
+
+    font-weight: bold;
+}
+
+.Za {
+
+    font-weight: 400px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-right: 28%;
+
+}
+
+.calc {
+    margin: 0px 10%;
+}
+
+.Calculator {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+}
+
+.Editor {
+    width: 30%;
+    margin-left: 60%;
+    height: 50%;
+    position: absolute;
 }
