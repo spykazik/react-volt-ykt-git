@@ -1,6 +1,5 @@
 @media screen and (max-width: 768px) {
     .btn {
-        size: sm;
     }
 }
 
@@ -116,7 +115,7 @@
     margin-top: 38vh;
     text-align: left;
     visibility: inherit;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(1px)
 }
 
@@ -125,11 +124,11 @@
 }
 
 .Za {
-    font-weight: 400px;
+    font-weight: 600;
     padding-top: 43px;
     padding-bottom: 43px;
     padding-right: 28%;
-
+    text-align: justify;
 }
 
 .calc {
