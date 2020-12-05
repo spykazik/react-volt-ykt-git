@@ -127,23 +127,10 @@
     font-weight: 600;
     padding-top: 43px;
     padding-bottom: 43px;
-    padding-right: 28%;
+    padding-right: 37%;
     text-align: justify;
 }
 
 .calc {
     margin: 0px 10%;
-}
-
-.Calculator {
-    width: 30%;
-    height: 50%;
-    position: absolute;
-}
-
-.Editor {
-    width: 30%;
-    margin-left: 60%;
-    height: 50%;
-    position: absolute;
 }

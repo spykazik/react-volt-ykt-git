@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { 
-    Container, 
-    Form, 
-    FormControl, 
-    Nav, 
-    Navbar 
+import {
+    Container,
+    Form,
+    FormControl,
+    Nav,
+    Navbar
 } from 'react-bootstrap'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import About from '../pages/About'
@@ -12,9 +12,9 @@ import Blog from '../pages/Blog'
 import Contacts from '../pages/Contacts'
 import Home from '../pages/Home'
 import styled from 'styled-components'
-import Calc from '../pages/Calc'
-import Calculator from "../pages/Calculator";
-import Editor from "../pages/Editor";
+import Calc from '../pages/calc/Calc'
+import Calculator from "../pages/calc/Calculator";
+import Editor from "../pages/calc/Editor/Editor";
 
 
 export default function Header () {

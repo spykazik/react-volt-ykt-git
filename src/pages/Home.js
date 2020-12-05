@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Jumbotron, Container } from 'react-bootstrap';
 import './Home.css';
 import styled from 'styled-components'
-import Calc from './Calc'
+import Calc from './calc/Calc'
 import first from '../img/first.png'
 
 // export default class Home extends Component(
